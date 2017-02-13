@@ -8,6 +8,7 @@ nav ul li{
 nav{
 
 	background-color: orange;
+	margin: 0;
 }
 
 nav ul li a{
@@ -16,10 +17,7 @@ nav ul li a{
 	color: white;
 }
 
-nav{
 
-	margin: 0;
-}
 
 /*somehow this align orangejuice with the nav words*/
 ul{
@@ -40,7 +38,18 @@ float: right;
 }
 
 
-.footer{
-
+footer{
+	height: 70px;
+	
 	background-color: lightblue;
+}
+
+
+
+
+@media (max-width: 525px){
+
+	.first{
+		background-color: darkorange;
+	}
 }
